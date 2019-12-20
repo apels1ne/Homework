@@ -1,0 +1,7 @@
+@font-face {
+    font-family:"10628";
+    src: local("10628"),
+    url(10628.ttf) format("truetype");
+    font-weight: bold;
+    font-style: italic;
+}
