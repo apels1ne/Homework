@@ -60,10 +60,10 @@
     background-color: orange;
 }
 
-.btn:focus {
+/* .btn:focus {
     border-radius: 23px;
     background-color: slategray;
-}
+} */
 
 .sing {
     text-align: center;
@@ -76,6 +76,7 @@
     margin-top: 200px;
     margin-left: ;
     color: white;
+    font-family: 'Raleway', sans-serif;
 }
 
 .main-content {
@@ -88,16 +89,20 @@
     margin-top: 300px;
 }
 
-.botaniq {
+.content-end {
     margin-top: 300px;
     background-color: tomato;
+}
+
+.text-content-end {
+    
 }
 
 h5 {
     width: 495px;
     height: 114px;
     color: #333333;
-    font-family: "Raleway - Semi Bold";
+    font-family: 'Raleway', sans-serif;
     font-size: 36px;
     font-weight: 400;
 }
