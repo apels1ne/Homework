@@ -5,12 +5,10 @@
 .container-fluid {
     background-size: auto;
     overflow: hidden;
-}
-
-.header,
-.content {
     background-color: #6907ff;
 }
+
+
 
 .logo {
     width: 35px;
@@ -47,12 +45,18 @@
 }
 
 
+
+
 .btn {
     width: 120px;
     height: 45px;
     margin-top: 50px;
     border-radius: 23px;
     background-color: #ff5f60;
+    color: white;
+
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
 }
 
 .btn:hover {
@@ -60,23 +64,20 @@
     background-color: orange;
 }
 
-/* .btn:focus {
-    border-radius: 23px;
-    background-color: slategray;
-} */
-
-.sing {
-    text-align: center;
-    color: #ffffff;
-    font-family: Raleway;
-    font-size: 18px;
-}
 
 .main-text {
+    width: 547px;
+    height: 53px;
     margin-top: 200px;
-    margin-left: ;
     color: white;
     font-family: 'Raleway', sans-serif;
+}
+
+.main-text-end {
+    width: 507px;
+    height: 47px;
+    color: #ffffff;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .main-content {
@@ -85,20 +86,27 @@
 }
 
 .group {
-    background-color: violet;
-    margin-top: 300px;
+    /* background-image: url(../img/group_bg.png); */
+    background-repeat: no-repeat;
+    margin-left: -300px;
+    background-color: white;
+    display: flex;
+    justify-content: flex-end;
+    background-size: cover;
+    /* background-color: violet; */
+    /* margin-top: 300px; */
 }
 
-.content-end {
-    margin-top: 300px;
-    background-color: tomato;
+.group-content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin-top: 497px;
 }
 
-.text-content-end {
-    
-}
 
 h5 {
+    display: inline-block;
     width: 495px;
     height: 114px;
     color: #333333;
@@ -107,10 +115,32 @@ h5 {
     font-weight: 400;
 }
 
-.middle {
-    margin-top: 300px;
+
+
+
+
+.botaniq {
+    /* background-image: url(../img/botaniq-bg.png); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 465px;
+    margin-top: -250px;
+    margin-left: 500px;
+    
 }
 
-.footer {
-    margin-top: 300px;
+.content-end {
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.nav-footer {
+    display: inline;
+    color: #c9c9c9;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 25px;
+    letter-spacing: 0.28px;
+    font-family: 'Poppins', sans-serif;
+
 }
