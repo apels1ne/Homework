@@ -44,7 +44,11 @@
     color: lightgrey;
 }
 
+.header-btn {
+    margin-top: -13%;
+    margin-left: 85%;
 
+}
 
 
 .btn {
@@ -59,6 +63,8 @@
     font-size: 16px;
 }
 
+
+
 .btn:hover {
     border-radius: 23px;
     background-color: orange;
@@ -68,6 +74,7 @@
 .main-text {
     width: 547px;
     height: 53px;
+    margin-left: -3%;
     margin-top: 200px;
     color: white;
     font-family: 'Raleway', sans-serif;
@@ -81,27 +88,30 @@
 }
 
 .main-content {
-    margin-top: 120px;
-    margin-bottom: 100px;
+    margin-top: -13%;
+    margin-left: 40%;
+    margin-bottom: 10%;
+}
+
+.group_bg {
+    margin-top: 10%;
+    background-repeat: no-repeat;
+    margin-left: -10%;
+    background-color: white;
+
+
 }
 
 .group {
-    /* background-image: url(../img/group_bg.png); */
-    background-repeat: no-repeat;
-    margin-left: -300px;
-    background-color: white;
-    display: flex;
-    justify-content: flex-end;
-    background-size: cover;
-    /* background-color: violet; */
-    /* margin-top: 300px; */
+    margin-left: -10%S;
 }
 
 .group-content {
+
+
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-    margin-top: 497px;
 }
 
 
@@ -119,28 +129,71 @@ h5 {
 
 
 
-.botaniq {
-    /* background-image: url(../img/botaniq-bg.png); */
-    background-size: cover;
+.botaniq_bg {
+    margin-top: 10%;
     background-repeat: no-repeat;
-    height: 465px;
-    margin-top: -250px;
-    margin-left: 500px;
-    
+}
+
+.botaniq {
+    width: 100%;
+    margin-left: 49%;
+}
+
+.botaniq-content {
+    margin-top: -35%;
+    margin-left: -10%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .content-end {
-    margin-top: 100px;
-    justify-content: center;
+    position: center;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
-.nav-footer {
-    display: inline;
+.headers_one,
+.headers_two {
+    margin-left: 80px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+
+.headers_three {
+    margin-left: 45px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 25px;
+}
+
+.man {
+    margin-left: 15%;
+}
+
+.idea {
+    margin-left: 12%;
+}
+
+.cap {
+    margin-left: 10%;
+}
+
+.Subtitles {
+    width: 322px;
+    height: 72px;
+    margin-top: 3%;
+    color: #8c8c8c;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+
+.footer {
+    margin-bottom: 3%;
+    height: 16px;
     color: #c9c9c9;
+    font-family: 'Poppins', sans-serif;
     font-size: 14px;
     font-weight: 400;
-    line-height: 25px;
-    letter-spacing: 0.28px;
-    font-family: 'Poppins', sans-serif;
-
+    line-height: 30px;
 }
